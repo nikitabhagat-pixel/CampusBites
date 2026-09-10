@@ -658,7 +658,28 @@ body {
     .menu-layout {
         grid-template-columns: 1fr;
     }
+
     .footer {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .outlets-grid,
+    .menu-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .outlets-grid,
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
     }
 }
